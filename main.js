@@ -74,19 +74,20 @@ function displayQuote (quote) {
 }
 
 // event listener for get new quote button, queries for a new quote
-$('#newQuote').on('click', function() { 
-  $('#quote_box span, #author').hide();
-  getNewQuote(); 
+$('#newQuote').on('click', function() {
+	$('#quote_box span, #author').hide();
+	getNewQuote();
 });
 
 //  event listener for change color button, changes color of quote box
-$('#changeColor').on('click', function() { 
-  changeColor(); 
+$('#changeColor').on('click', function() {
+	changeColor(); 
 });
 
 // on document ready, hides coontent of quote box and queries for a quote
 $(document).ready(function() {
-  $('#quote_box span, #author, #twitter_button').hide();
-  getNewQuote();
+	$('#quote_box span, #author, #twitter_button').hide();
+	getNewQuote();
+	console.log('teast');
+	
 });
-
