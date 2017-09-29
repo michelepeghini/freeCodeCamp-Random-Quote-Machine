@@ -82,7 +82,6 @@ function displayQuote (quote) {
   }
   updateTwitterButton(quote.quote);
   changeColor();
-  timer = setTimeout( getNewQuote , interval*1000 );
   $('#quote_box span, #author, #twitter_button').show();
 }
 
@@ -91,6 +90,7 @@ $(document).ready(function() {
   // event listener for get new quote button, queries for a new quote
   $('#newQuote').on('click', function() {
     $('#quote_box span, #author').hide();
+    clearInterval(timer);
     getNewQuote();
   });
 

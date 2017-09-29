@@ -57,3 +57,26 @@ button {
   margin: 0 10px;
   padding:2px;
 }
+
+#credits {
+  border: 2px solid #006400;
+  box-shadow: 5px 5px 10px #006400;
+  width: 600px;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+#credits h2 {
+  margin: 10px auto 20px auto;
+  color: #006400;
+}
+
+#credits p {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#credits a {
+  color: #006400;
+}
