@@ -1,6 +1,11 @@
-h1 {
-  margin: 30px auto 40px auto;
+#top_header {
+  color:#ffffff;
+  background-color: #006400;
+  margin: 0 auto;
+  padding: 20px 0 30px 0;
 }
+
+
 h3 { 
   margin: 10px 0;
   padding-top: 0;
@@ -39,10 +44,6 @@ h3 {
 #credits {
   border: 3px solid black;
   box-shadow: 5px 5px 10px black;   
-}
-#settings h3, 
-#credits h3{
-  text-transform: uppercase;
 }
 
 #settings>p {

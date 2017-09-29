@@ -96,9 +96,7 @@ $(document).ready(function() {
 
   //  event listener for change color button, changes color of quote box
   $('#changeColor').on('click', function() {
-    console.log('before');
     changeColor(); 
-    console.log('after');
   });
 
   
